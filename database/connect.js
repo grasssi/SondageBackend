@@ -3,7 +3,7 @@ const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 };
-mongoose.connect('mongodb://localhost:27017/SiGMiT_DataBase', options).then(connect => {
+mongoose.connect('mongodb://localhost:27017/Sondage_DataBase', options).then(connect => {
     console.log("=> connect to databse successfully!")
 }).catch(err => {
     console.log("=> connect to database with error :")
